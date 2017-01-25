@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Varun Sayal - Welcome!</title>
+        <link rel="stylesheet" type="text/css" href="styles/index.css" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Calligraffitti|Pacifico' rel='stylesheet' type='text/css'>
+		<link href="styles/Hover-master/css/hover.css" rel="stylesheet" media="all">
+		
+		<script src="jquery.js"></script>
+		<script>
+			$(window).bind("scroll", function() {
+				if ($(this).scrollTop() > 400) {
+					$("#whoAmI").fadeIn("slow");
+				} else {
+					$("#whoAmI").stop().fadeOut("slow");
+				}
+				
+				if ($(this).scrollTop() > 900) {
+					$(".text_area_b").fadeIn("slow");
+				} else {
+					$(".text_area_b").stop().fadeOut("slow");
+				}
+			});
+		</script>
+    </head>
+    <body>
+		<div id="navbar">
+			<div class="left">
+				<p id="nav_name_text">Varun Sayal</p>
+			</div>
+			<div class="center">
+				<ul>
+					<li><a href="index.html" class="glow"><p>Projects</p></a></li>
+					<li><a href="index.html" class="glow"><p>Interests</p></a></li>
+				</ul>
+			</div>
+			<div class="right">
+				<ul id="social_bar">
+					<li><img src="styles/images/icons/linkedin.png"></li>
+					<li><img src="styles/images/icons/googleplus.png"></li>
+					<li><img src="styles/images/icons/email.png"></li>
+					<li><img src="styles/images/icons/youtube.png"></li>
+				</ul>
+			</div>
+		</div>
+		<div id="top_section">
+			<h1 id="hi">Hi!<h1>
+			<p class="not_name">My name is</p>
+			<h2 id="name_text">Varun Sayal</h2>
+			<p id="thanks">Thanks for visiting my website</p>
+		</div>
+		<div id="main_container">
+			<h2 id="whoAmI">Who am I?</h2>
+		</div>
+		<div id="bottom_section">
+			Add footer here
+		</div>
+    </body>
+</html>

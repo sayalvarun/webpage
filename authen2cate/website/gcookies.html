@@ -1,0 +1,66 @@
+<html>
+	<title>Authen2cate - Grandma's Cookies</title>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles/gcookies.css">
+		<script src='game.js'> </script>
+	</head>
+	<body>
+		<img src = "images/GClogo.png" />
+		<div id = "BioDiv">
+			<h2 class="bio">Bio</h2>
+			<p class="bio">
+				<div class="bioPoints" id="name">Name: Mabel Doreen Webermenjetson</div>
+				<div class="bioPoints" id="town">Hometown: Someplace, Wi</div>
+				<div class="bioPoints">Favorite Color: Purple</div>
+				<div>
+					<p id="about_grandma">
+						Hello everyone! Welcome to my site. I am the CEO and chairman of Grandma's Cookies. I love baking because I went to college to be a culinary chef
+						but had to cut my education short due to dietary concerns. Due to a fortuitous instance of lockjaw, I managed to get my body under control. Now, however,
+						I am back in the sweets business! Boy do I LOVE cookies, I think cookies are my most favorite thing in the whole wide world! Please feel free to navigate my
+						site however you wish, no matter how nefarious you are. My nephew implemented the security infrastructure (thats the technical term) for the site and he is 
+						the smartest 13 year old I know. Thanks for the clickings!
+					
+					</p>
+				</div>
+			</p>
+		</div>
+				
+		<div id="container">
+		
+		<h2 class="login">Admin Login</h2>
+			<div class ="entryForm">
+				<form name = "myform">
+					<label for="username">Username:</label>
+					<input type="text" id="username" name="username">
+					<label for="password">Password:</label>
+					<input type="password" id="password" name="password" onkeydown = "evaluateKeyPress(event);">
+					<div id="lower">
+						<input type="checkbox"><label for="checkbox">Keep me logged in</label>
+						<input type="button" value="Login" onclick="validate()">
+					</div><!--/ lower-->
+				</form>
+			</div>
+		</div>
+		<span>1</span>
+		<div id="feed">
+				<div id = "BlogTitle"><p id = "blogTitleText">Grammy's Blog:</p></div>
+				<div class="BlogPost">
+				<p class="BlogPostTextDate">2/06/2014</p>
+				<p class="BlogPostText">Made some cookies today!</p>
+				</div>
+				<div class="BlogPostRight">
+				<p class="BlogPostTextDate">2/4/2014</p>
+				<p class="BlogPostText">Gonna make some cookies today...probably. ;P</p>
+				</div>
+				<div class="BlogPost">
+				<p class="BlogPostTextDate">2/3/2014</p>
+				<p class="BlogPostText">Starting my diet today! No cookies for me!!!!</p>
+				</div>
+				<div class="BlogPostRight">
+				<p class="BlogPostTextDate">1/29/2014</p>
+				<p class="BlogPostText">Why is my username stuck on admin? Whaaa?</p>
+				</div>
+				</div>
+		</div>
+	</body>
+</html>

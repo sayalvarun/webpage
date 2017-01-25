@@ -1,0 +1,25 @@
+body{
+	background-color: black; color: lime; font-family: 'VT323', cursive; font-size: 17pt;
+}
+@keyframes blink {  
+	0% { color: lime; }
+	100% { color: black; }
+}
+@-webkit-keyframes blink {
+	0% { color: lime; }
+	100% { color: black; }
+}
+#blink {
+	-webkit-animation: blink 0.5s linear infinite;
+	-moz-animation: blink 0.5s linear infinite;
+	animation: blink 0.5s linear infinite;
+}
+button {
+   border: 1px solid #3e8717;
+   background: lime;
+   padding: 5px 20px;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   vertical-align: middle;
+   margin-top:10px;
+}

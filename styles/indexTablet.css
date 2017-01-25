@@ -1,0 +1,84 @@
+@media only screen and (min-device-width: 768px){
+
+	html,body
+	{
+	    width: 1024px;
+	    height: 100%;
+	    margin: 0px;
+	    padding: 0px;
+	    overflow-x: hidden; 
+	    overflow-y: auto;
+	}
+
+
+	li{
+		padding-right: 5px;
+	}
+
+	#nav_name_text{
+		font-size: 29px;
+		margin-top: 15px;
+	}
+
+	.not_name{
+		margin-top: -35px;
+	}
+
+	#introInfoList{
+		width: 90%;
+	}
+
+	#moreInfo{
+		margin-bottom: 50px;
+	}
+
+	.educationDiv{
+		width: 100% !important;
+		display: block;
+		height: auto !important;
+		margin-bottom: 10px; 
+	}
+
+	.subEd h2{
+		font-size: 17px !important;
+	}
+
+	#experienceList{
+		width: 100%;
+	}
+
+	#projectsInfo{
+		width: 100%;
+	}
+
+	#extraCurrInfo{
+		width: 100%;
+	}
+
+	#hi{
+		font-size: 175px;
+		margin-top: 20px;
+	}
+
+	#top_section, #main_container, #bottom_section, #navbar{
+		width: 1024px !important;
+	}
+
+	#social_bar img{
+		width: 19%;
+	}
+
+	.center{
+		display: none;
+	}
+
+	.right{
+		right: -18;
+		top: 2;
+	}
+
+	#main_container img{
+		display: none;
+	}
+
+}

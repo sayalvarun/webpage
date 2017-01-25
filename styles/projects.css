@@ -1,0 +1,53 @@
+#big_title{
+	font-size: 100px;
+	margin-top: 5%;
+	font-weight: 700;
+}
+
+.not_name{
+	font-size: 55px;
+	font-weight: 300;
+	font-style: italic;
+	font-family: Arial;
+}
+
+#name_text{
+	margin-top: 2%;
+	font-weight: 400;
+	font-size: 35px;
+	font-family: 'Calligraffitti', cursive;
+}
+
+#projectsInfo{
+	width: 64%;
+  	float: left;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+      padding-top: 50px;
+}
+
+.textArea{
+	height: 70% !important;
+}
+
+.textAreaA{
+	margin-top: 45% !important;
+}
+
+.carousel-indicators{
+	position: relative;
+	bottom: 10px;
+}
+
+.carousel-indicators li {
+  background-color: #999 !important;
+  background-color: rgba(70,70,70,.25) !important;
+}
+
+.carousel-indicators .active {
+  background-color: #444 !important;
+}

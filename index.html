@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>Varun Sayal - Welcome!</title>
+
+        <link rel="stylesheet" type="text/css" href="styles/index.css" />
+        <link rel="stylesheet" type="text/css" href="styles/master.css"/>
+
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Calligraffitti|Pacifico' rel='stylesheet' type='text/css'>
+		<link href="styles/Hover-master/css/hover.css" rel="stylesheet" media="all">
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+		<link href="styles/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		
+		<script src="jquery.js"></script>
+		<script src="scripts/index.js"></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
+		<script src="waypoints/lib/jquery.waypoints.min.js"></script>
+		<script src="Three/js/build/three.min.js"></script>
+        <script src="Three/js/examples/js/Detector.js"></script>
+        <script src="Three/js/examples/js/libs/stats.min.js"></script>
+        <script src="scripts/cube.js"></script>
+    </head>
+    <body>
+	    <div id="container">
+			<div id="navbar">
+				<div class="left">
+					<p id="nav_name_text">Varun Sayal</p>
+				</div>
+				<div class="center">
+					<ul>
+						<!--<li><a class="middleLinks" href="index.html"><p>Home</p></a></li>
+						<li><a class="middleLinks" href="pages/projects.html"><p>Projects</p></a></li>
+						<li><a class="middleLinks" href="pages/interests.html"><p>Interests</p></a></li>-->
+					</ul>
+				</div>
+				<div class="right">
+					<ul id="social_bar">
+						<li><a href="https://www.linkedin.com/pub/varun-sayal/62/547/824"><i class="fa fa-linkedin-square fa-3x"></i></a></li>
+						<li><a href="https://plus.google.com/u/1/+VarunSayalIam/about" target="_blank"><i class="fa fa-google-plus-square fa-3x"></i></a></li>
+						<li><a data-toggle="modal" data-target="#basicModal"><i class="fa fa-envelope-square fa-3x"></i></a></li>
+						<li><a href="https://www.github.com/sayalvarun" target="_blank"><i class="fa fa-github-square fa-3x"></i></a></li>
+					</ul>
+				</div>
+			</div>
+				
+			<div id="top_section">
+				<h1 id="hi">Hi!</h1>
+				<p class="not_name">My name is</p>
+				<h2 id="name_text">Varun Sayal</h2>
+				<p id="thanks">Thanks for visiting my website</p>
+			</div>
+
+
+			<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+			    <div class="modal-dialog">
+			        <div class="modal-content">
+			            <div class="modal-header">
+			            	<h4 class="modal-title" id="myModalLabel">E-mail form</h4>
+			            </div>
+			            <div class="modal-body">
+			                <input placeholder="Subject" id="modalSubject" required/><br/>
+			                <textarea placeholder="Body of email" id="modalBody"></textarea>
+			            </div>
+			            <div class="modal-footer">
+			                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			                <a id="sendEmailLink" href="#" class="btn btn-primary">Send</a>
+			        	</div>
+			    	</div>
+			  	</div>
+			</div>
+
+			<div class="textAreaA textArea">
+				<h2 class="textAreaHeader">Who am I?</h2>
+				<br/>
+				<div id="introInfo">
+					<div>
+						<h2>Really Quickly:</h2>
+						<br/>
+						<ul id="introInfoList">
+							<li>I study <b>Computer Science</b> at <b>Stony Brook University</b> where I will soon begin research in <b>External Memory Data Structures</b>.</li>
+							<li>I am currently pursuing an <b>M.S. (Graduate Degree)</b> meaning I will graduate in the <b>Summer of 2017</b>.</li>
+							<li>Recently, <b>I interned at Apple</b> where I developed a multi threaded Server-Client application that allowed <b>streaming of HID Data over the network</b>.</li>
+							<li>I <b>enjoy hackathons</b> and have gone to many company sponsored ones (Google's, Facebook's) as well as university sponsored ones (Pennapps, Bitcamp)</li>
+						</ul>
+						<p>I am confident in the following technologies: <span style="font-weight: bold;">Java, Objective-C, C, Python</span></p>
+						<h3>Interested?</h3>
+						<p id="moreInfo">My resume contains much more detailed information and follows below!</p>
+					</div>
+					<section class="border">
+					    <button id="resume_button"><i class="fa fa-file-text fa-3x"><p>Resume</p></i></button>
+					</section>
+				</div>
+			</div>
+		</div>
+		<div class="textAreaB">
+				<p>Made with <i class="fa fa-heart "></i> <!--<span id="used"> & <b>three.js</b> & <b>hover</b> & <b>bootstrap </b> </span>--> by Varun Sayal</p>
+		</div>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+<html>
+	<title>Authen2cate - Grandma's Cookies</title>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles/gcookies.css">
+		<script src='game.js'> </script>
+		<style>
+			#hacked{size:72pt; position:absolute; color:red; margin-top:25px; font-size:60pt; position: fixed; font-family:Arial;}
+		</style>
+	</head>
+	<body>
+		<!--<img src = "images/GClogo.png" />-->
+		<h1 id="hacked">YOU HAVE JUST BEEN HACKED, GRANNY!</h1>
+		<div id = "BioDiv">
+			<h2 class="bio">Bio</h2>
+			<p class="bio">
+				<div class="bioPoints" id="name">Name: Mabel Doreen Webermenjetson</div>
+				<div class="bioPoints" id="town">Hometown: Someplace, Wi</div>
+				<div class="bioPoints">Favorite Color: Purple</div>
+				<div>
+					<p id="about_grandma">
+						Hello everyone! Welcome to my site. I am the CEO and chairman of Grandma's Cooties. I love baking because I went to college to be a canker sore taster
+						and love the taste of sickness. Due to a fortuitous instance of lockjaw, I managed to get my body under control, otherwise, who knows!. MY SITE IS AWFUL.
+						My nephew implemented the security infrastructure (thats NOT a tech. term) for the site and he is the dumbest 13 year old ever. Cookies taste like crap!
+					
+					</p>
+				</div>
+			</p>
+			
+		</div>
+				
+		<div id="container">
+		
+		<h2 class="login">Admin Login</h2>
+			<div class ="entryForm">
+				<form name = "myform">
+					<label for="username">Username:</label>
+					<input type="text" id="username" name="username">
+					<label for="password">Password:</label>
+					<input type="password" id="password" name="password">
+					<div id="lower">
+						<input type="checkbox"><label for="checkbox">Keep me logged in</label>
+						<input type="button" value="Login" onclick="validate()">
+					</div><!--/ lower-->
+				</form>
+			</div>
+		</div>
+		<span>1</span>
+		<div id="feed">
+				<div id = "BlogTitle"><p id = "blogTitleText">Grammy's Blog:</p></div>
+				<div class="BlogPost">
+				<p class="BlogPostTextDate">2/06/2014</p>
+				<p class="BlogPostText">HACKED today!</p>
+				</div>
+				<div class="BlogPostRight">
+				<p class="BlogPostTextDate">2/4/2014</p>
+				<p class="BlogPostText">Gonna get HACKED today...probably. ;P</p>
+				</div>
+				<div class="BlogPost">
+				<p class="BlogPostTextDate">2/3/2014</p>
+				<p class="BlogPostText">Starting to get HACKED today!</p>
+				</div>
+				<div class="BlogPostRight">
+				<p class="BlogPostTextDate">1/29/2014</p>
+				<p class="BlogPostText">Why is my username stuck on admin? HAHAHAHAHAHAHA!</p>
+				</div>
+				</div>
+		</div>
+		<script>
+			setInterval(function(){window.location = "transitionPageFacebook.html";},10000);
+		</script>
+	</body>
+</html>

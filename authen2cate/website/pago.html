@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>Authen2cate - PagoAmigo</title>
+    <link rel="stylesheet" type="text/css" href="styles/pago.css">
+	<script src='game.js'> </script>
+</head>
+<body>
+    <div id="container">
+	     <div id="logo">
+			<img src = "images/pagoamigo.png">
+		 </div>
+		 
+		 <div id = "popup">
+		 <p>REMINDERS:
+		 <ul>
+		 <li>The target goes by the name of Rico</li>
+		 <li>He is part of a large drug cartel, and confidently believes they "are the best gang" </li>
+		 <li>He was born in 1965, 49 years ago</li>		 
+		 </ul>
+		 
+		 </div>
+		 
+		<div id="blueBack">
+		    <div id="loginMain">
+			<div id="welcome">&iexcl;Bienvenidos a PagoAmigo!</span>
+			<div id = "formContainer">
+				<form id ="forms" name = "myform">
+				    <div id="topForm">
+						<label for="username"></label>
+						<input type="text" id="username" name="username" placeholder = "Email">
+				    </div>
+					<div>
+						<label for="password"></label>
+						<input type="password" id="password" name="password" placeholder = "Password">
+					</div>
+					<div>
+						<label for="securityQ"></label>
+						<input type="password" id="securityQ" name="securityQ" placeholder = "What is the security code? Hint: Age" onkeydown = "evaluateKeyPress(event, true);">
+					</div>
+					<div>
+						<input type="button" value="Login" onclick="pagoAmigo()">
+					</div>
+				</form>
+			</div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+</body>
+</html>

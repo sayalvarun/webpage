@@ -1,0 +1,44 @@
+@media only screen and (min-device-width: 480px){
+
+	#experienceInfo{
+		text-align: left;
+	}
+
+	#experienceList{
+		width: 100%;
+	}
+
+	#projectsInfo{
+		width: 100%;
+	}
+
+	#extraCurrInfo{
+		width: 100%;
+	}
+
+	#experienceInfo ul{
+		width: 100%;
+		padding-bottom: 35px;
+	}
+
+	.nestedList{
+		font-size: 20px;
+	}
+
+	#experienceInfo li{
+		text-align: left;
+	}
+
+	#experienceImages img{
+		display: none !important;
+	}
+
+	#main_container img{
+		display: none;
+	}
+
+	#introInfo ul{
+		width: 75%;
+	}
+
+}

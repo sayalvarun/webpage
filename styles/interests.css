@@ -1,0 +1,20 @@
+
+#big_title{
+	font-size: 100px;
+	margin-top: 5%;
+	font-weight: 700;
+}
+
+.not_name{
+	font-size: 55px;
+	font-weight: 300;
+	font-style: italic;
+	font-family: Arial;
+}
+
+#name_text{
+	margin-top: 2%;
+	font-weight: 400;
+	font-size: 35px;
+	font-family: 'Calligraffitti', cursive;
+}
