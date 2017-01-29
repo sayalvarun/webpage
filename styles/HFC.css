@@ -31,7 +31,13 @@
 }
 
 .textArea{
-	height: 70% !important;
+	height: auto !important;
+}
+
+.textArea img{
+	height: 100%;
+	width: 50%;
+	margin-bottom: 5%;
 }
 
 .textAreaA{
