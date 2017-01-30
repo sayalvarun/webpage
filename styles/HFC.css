@@ -38,6 +38,24 @@
 	height: 100%;
 	width: 50%;
 	margin-bottom: 5%;
+	margin-left: 2%;
+	margin-right: 2%;
+	float:left;
+}
+
+#doodle1 li{
+	margin-left: 1%;
+	text-align: left;
+}
+
+#doodle1 ul{
+	position:relative;
+	right: -4%;
+	margin-right: 4%;
+}
+
+#doodle1 h3{
+	text-align: left;
 }
 
 .textAreaA{
