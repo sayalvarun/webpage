@@ -35,12 +35,16 @@
 }
 
 .textArea img{
-	height: 100%;
-	width: 50%;
 	margin-bottom: 5%;
 	margin-left: 2%;
 	margin-right: 2%;
-	float:left;
+}
+
+.doodle {
+	max-width:30%;
+  max-height:50%;
+  width: auto;
+  height: auto;
 }
 
 #doodle1 li{
